@@ -1,7 +1,38 @@
 body {
-    font-size: 50px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    background-color:white
 }
+
 p{
-    font-size:45;
-    color:rgb(103, 131, 131)
+    font-size: 9;
+    color:rgb(78, 100, 100)
+}
+header {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-weight: 100;
+}
+.sub {
+    color: (100, 4, 29)
+}
+nav {
+    justify-content: space-around;
+    padding-bottom:20px
+
+}
+section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin-bottom: 50px;
+}
+div {
+    text-align:center
 }
