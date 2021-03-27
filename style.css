@@ -1,22 +1,29 @@
 body {
     font-size: 20px;
     font-family:'Times New Roman', Times, serif;
-    background-color:white
+    background-color:rgb(255, 255, 255)
 }
 
 p{
     font-size: 9;
-    color:rgb(78, 100, 100)
+    color:rgb(0, 0, 0)
 }
 header {
     text-align: center;
+    margin:0;
+    height:700px;
+    background-image:url(images/609a7fdb5c87539ce7ee7e3e73c2e134.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
 }
-a {
+.top-link {
     text-decoration: none;
+    color:seashell;
 }
 a:hover {
     text-decoration: underline;
-    color:darkcyan;
+    color:rgb(239, 250, 250);
 }
 h1 {
     font-weight: 100;
@@ -26,8 +33,10 @@ h1 {
 }
 nav {
     justify-content: space-around;
-    padding-bottom:20px
-
+    padding-bottom:20px;
+    padding-top:10px;
+    background-color:rgb(41, 43, 43);
+    margin:0;
 }
 section {
     padding-left: 10vw;
@@ -40,4 +49,21 @@ div {
 .links {
     display:flex;
     justify-content:space-around;
+}
+.end {
+    margin:0;
+    padding-bottom:-90px;
+    background-color:slategray;
+}
+.container {
+    margin-top:50px;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:100px;
+}
+.third {
+    width: 30%;
+}
+.half {
+    width: 49%;
 }
